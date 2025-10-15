@@ -19,10 +19,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002524868057))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1003109540630))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 8126219763))
+OWNER_ID = int(getenv("OWNER_ID", 8249875504))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -43,8 +43,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/xmusicsupport")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/xmusicsupport1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/nltride")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/koyebtest")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -122,5 +122,6 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
